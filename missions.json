@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Random String Mission",
+    "description": "Generate and return a new, short, random string of length in [5, 11)."
+  },
+  {
+    "name": "Length Comparison Mission",
+    "description": "Adjust state to be longer than the combined length of neighbors."
+  },
+  {
+    "name": "Shorter Comparison Mission",
+    "description": "Adjust state to be a random string shorter than the length of neighbor n-1 state string."
+  },
+  {
+    "name": "Average Length Mission",
+    "description": "Adjust state to have the average length of neighbors."
+  },
+  {
+    "name": "Alphabetical Order Mission",
+    "description": "Find and sort alphanumerically the combined state strings of neighbors."
+  },
+  {
+    "name": "Reverse Mission",
+    "description": "Find and reverse the combined state strings of neighbors."
+  },
+  {
+    "name": "Summation Mission",
+    "description": "Find and sum the digits of the combined states of neighbors."
+  },
+  {
+    "name": "Only Digits Mission",
+    "description": "Find and return only the digits of the combined states of neighbors (no letters)."
+  },
+  {
+    "name": "Only Letters Mission",
+    "description": "Find and return only the letters of the combined states of neighbors (no digits)."
+  },
+  {
+    "name": "Uppercase Mission",
+    "description": "Find and convert the state string of neighbor n-1 to uppercase."
+  },
+  {
+    "name": "Number of Vowels Mission",
+    "description": "Return the count of vowels in the combined states of neighbors."
+  },
+  {
+    "name": "Number of Letters Mission",
+    "description": "Return the count of the number of letters in the combined states of neighbors."
+  },
+  {
+    "name": "Three Most Frequent Characters Mission",
+    "description": "Find and return the three most frequent characters in the combined states of neighbors."
+  },
+  {
+    "name": "Mystery String Solver Mission",
+    "description": "Given a scrambled string, decode it to return the original meaningful string, if possible, or return the most likely candidates."
+  },
+  {
+    "name": "Pattern Finder Mission",
+    "description": "Identify and return recurring patterns in a given string, whether in characters or subsequences."
+  },
+  {
+    "name": "Palindrome Check Mission",
+    "description": "Check if a given string is a palindrome, and if not, return the closest palindrome by changing only one character."
+  },
+  {
+    "name": "Anagram Challenge Mission",
+    "description": "Generate a list of possible anagrams from a given set of letters or a word and return the most relevant ones based on frequency of use."
+  },
+  {
+    "name": "Sentiment Analysis Mission",
+    "description": "Analyze a given text string and classify its sentiment as positive, negative, or neutral, along with the reasons for the classification."
+  },
+  {
+    "name": "Quiz Generation Mission",
+    "description": "Create a fun quiz based on provided text, generating multiple-choice questions related to the content and returning the correct answers."
+  },
+  {
+    "name": "Language Translator Mission",
+    "description": "Translate a given string from one language to another using a simple dictionary-based method or predefined rules."
+  },
+  {
+    "name": "Character Frequency Mission",
+    "description": "Analyze the frequency of each character in the string and return the most and least frequent characters, along with their counts."
+  },
+  {
+    "name": "Story Generator Mission",
+    "description": "Create a short story using randomly chosen words from a provided list, ensuring it makes coherent sense."
+  },
+  {
+    "name": "Rhyme Finder Mission",
+    "description": "Given a word, return a list of words that rhyme with it, potentially sorted by the strength of the rhyme."
+  }
+]

@@ -1,0 +1,281 @@
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Initialized new cells array.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '5'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': 'LMPabqvz'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '78'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'g3Fh5'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'xyz'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '9'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'taZ'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'ZpwLd'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabc'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'WBEFEYJJMA'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '7'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': 'LMPabqvz5'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '78'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'xy'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'ab'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '4'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 't'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'abc'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'WBEFEYJJMA'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '5'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': 'LMMPabqvz578'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '78'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'x'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'a'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '3'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'a'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '8'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': 'LMMPabqvz578'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '78'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'y'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'b'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '4'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'xyz'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcd'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonLambdaLionXYZ1234'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '10'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': '78LMMPabqvz578'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '578'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'x'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'a'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '4'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'xy'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcdXYZxyz123456'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '6'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': 'LMMPabqvz578'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '57878'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': ''} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': ''} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '2'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'x'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcdXYZxyz1234567890'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonKappaKnightLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '8'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': '578LMMPabqvz'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '578'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'abc'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'Hi'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '2'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'abc'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcdXYZxyz12345678901234567890'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonKappaKnightLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '8'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': '578LMMPabqvz'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '578'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'x'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'A'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '3'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'a'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcdXYZxyz12345678901234567890abcdefgh'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonKappaKnightLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '10'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': '5788LMMPabqvz'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '578'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': ''} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'B'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '1'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'random'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcdXYZxyz12345678901234567890abcdefghXYZ9876543210'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonKappaKnightLambdaLion'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  python openai_runner.py
+Loaded cells from cache.
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': {'name': 'Vowel Count Mission', 'description': 'Return the count of the number of vowels in the combined states of neighbors.'}, 'state': '7'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': {'name': 'Alphabetical Order Mission', 'description': 'Find and sort the state of your combined neighbors alphabetically.'}, 'state': '0135788LMMPabqvz'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': {'name': 'Only Digits Mission', 'description': 'Find and return only the digits of the combined states of neighbors (no letters).'}, 'state': '578578'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'A'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'A'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': {'name': 'Consonant Count Mission', 'description': 'Return the count of the number of consonants in the combined states of neighbors.'}, 'state': '1'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': {'name': 'Character Frequency Mission', 'description': 'Find and return the most frequent character in the combined states of neighbors.'}, 'state': 'a'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': {'name': 'Shorter Comparison Mission', 'description': 'Adjust state to be a random string shorter than the length of neighbor n-1.'}, 'state': 'abc'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': {'name': 'Length Comparison Mission', 'description': 'Adjust state to be longer than the combined length of neighbors.'}, 'state': 'bW52W2X9oAabcXYZ1234abcdXYZxyz12345678901234567890abcdefghXYZ9876543210XXXYYYZZZ'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': {'name': 'Only Letters Mission', 'description': 'Find and return only the letters of the combined states of neighbors (no digits).'}, 'state': 'IotaIonKappaKnightLambdaLionXYZabcdefgh'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': {'name': 'Uppercase Mission', 'description': 'Convert the state of neighbor n-1 to uppercase.'}, 'state': 'KAPPA KNIGHT'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/experimental   master ±  
