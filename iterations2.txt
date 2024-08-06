@@ -1,0 +1,320 @@
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{}, {}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors'}, {}, {'id': 'zorg-borg-50', 'mission': 'never change. always remain just the way you are right now.'}, {}, {'id': 'unga-bunga-54', 'mission': 'remain larger than your neighbors'}, {}, {}, {}] 
+
+
+New states:
+{} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 1, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 'small'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than neighbor n-1 (zob-blob-52) and neighbor n+1 (zorg-borg-50)'} 
+
+{'id': 'zorg-borg-50', 'mission': 'never change. always remain just the way you are right now.', 'status': 'maintaining current state'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).'} 
+
+{'id': 'unga-bunga-54', 'mission': 'remain larger than your neighbors', 'size': 'larger'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 2} 
+
+{} 
+
+{} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 1, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 'small'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than neighbor n-1 (zob-blob-52) and neighbor n+1 (zorg-borg-50)'}, {'id': 'zorg-borg-50', 'mission': 'never change. always remain just the way you are right now.', 'status': 'maintaining current state'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).'}, {'id': 'unga-bunga-54', 'mission': 'remain larger than your neighbors', 'size': 'larger'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 2}, {}, {}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.5, 'status': 'active'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.5, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than current-cell-01', 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than small'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than zorg-borg-50 and current-cell-42', 'status': 'size adjusted to remain smaller than both neighbors'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 'larger than zorg-borg-50 but smaller than unga-bunga-54', 'status': 'adjusting size to maintain relative positions'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 3} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 3} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 3} 
+
+{} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.5, 'status': 'active'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.5, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than current-cell-01', 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than small'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than zorg-borg-50 and current-cell-42', 'status': 'size adjusted to remain smaller than both neighbors'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 'larger than zorg-borg-50 but smaller than unga-bunga-54', 'status': 'adjusting size to maintain relative positions'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 3}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 3}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 3}, {}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.4, 'status': 'active'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.4, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.4, 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than zorg-borg-50 and current-cell-42', 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than zorg-borg-50 and current-cell-42', 'status': 'size adjusted to remain smaller than both neighbors, maintaining mission'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 3.1, 'status': 'adjusted size to remain larger than zorg-borg-50 and smaller than unga-bunga-54'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4, 'status': 'successfully adjusted size to maintain relative positions'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 4} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 1, 'status': 'active'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.4, 'status': 'active'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.4, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.4, 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than zorg-borg-50 and current-cell-42', 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 'smaller than zorg-borg-50 and current-cell-42', 'status': 'size adjusted to remain smaller than both neighbors, maintaining mission'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 3.1, 'status': 'adjusted size to remain larger than zorg-borg-50 and smaller than unga-bunga-54'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4, 'status': 'successfully adjusted size to maintain relative positions'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 4}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 1, 'status': 'active'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.3, 'status': 'active'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.3, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.39, 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.39, 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.9, 'status': 'size adjusted to remain smaller than current-cell-42, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4.1, 'status': 'successfully adjusted size to remain larger than zorg-borg-50 and maintain relative size against unga-bunga-54'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4.1, 'status': 'adjusted size to remain larger than zorg-borg-50 and smaller than unga-bunga-54'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5, 'status': 'successfully adjusted size to maintain relative positions'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 5} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 1.5, 'status': 'active'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.3, 'status': 'active'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.3, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.39, 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.39, 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.9, 'status': 'size adjusted to remain smaller than current-cell-42, fulfilling mission while maintaining activity'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4.1, 'status': 'successfully adjusted size to remain larger than zorg-borg-50 and maintain relative size against unga-bunga-54'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 4.1, 'status': 'adjusted size to remain larger than zorg-borg-50 and smaller than unga-bunga-54'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5, 'status': 'successfully adjusted size to maintain relative positions'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 5}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 1.5, 'status': 'active'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.38, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.38, 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.38, 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.9, 'status': 'active; successfully remains smaller than current-cell-42'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.85, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.1, 'status': 'successfully adjusted size to remain larger than zorg-borg-50 and maintain size greater than unga-bunga-54'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.1, 'status': 'increased size to remain larger than zorg-borg-50 and maintain larger size than unga-bunga-54'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 2, 'status': 'successfully adjusted size to maintain relative positions'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6, 'status': 'active'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.38, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.38, 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.38, 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.9, 'status': 'active; successfully remains smaller than current-cell-42'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.85, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.1, 'status': 'successfully adjusted size to remain larger than zorg-borg-50 and maintain size greater than unga-bunga-54'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.1, 'status': 'increased size to remain larger than zorg-borg-50 and maintain larger size than unga-bunga-54'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 2, 'status': 'successfully adjusted size to maintain relative positions'}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6, 'status': 'active'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.37, 'status': 'active'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.37, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.84, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.8, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.2, 'status': 'successfully adjusted size to remain larger than zorg-borg-50 and maintain size greater than unga-bunga-54'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.5, 'status': 'increased size to ensure being larger than zorg-borg-50 and保持大于unga-bunga-54'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.1, 'status': 'increased size to remain larger than neighbor cell n+1 (current-cell-02)'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6, 'status': 'successfully maintained size to remain larger than neighbor'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.37, 'status': 'active'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.37, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.84, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.8, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.2, 'status': 'successfully adjusted size to remain larger than zorg-borg-50 and maintain size greater than unga-bunga-54'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 5.5, 'status': 'increased size to ensure being larger than zorg-borg-50 and保持大于unga-bunga-54'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.1, 'status': 'increased size to remain larger than neighbor cell n+1 (current-cell-02)'}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6, 'status': 'successfully maintained size to remain larger than neighbor'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.1, 'status': 'successfully decreased size to remain smaller than neighbors'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active'} 
+
+{'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.37, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.79, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.79, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.7, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.2, 'status': 'increased size to ensure being larger than zorg-borg-50 and maintain size greater than unga-bunga-54'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.2, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) which has size 6'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.1, 'status': 'increased size to remain larger than neighbor cell n-1 (current-cell-01) and neighbor cell n+1 (current-cell)'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.1, 'status': 'successfully decreased size to remain smaller than neighbors'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active'}, {'id': 'zob-blob-52', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.37, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.79, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.79, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.7, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.2, 'status': 'increased size to ensure being larger than zorg-borg-50 and maintain size greater than unga-bunga-54'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.2, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) which has size 6'}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.1, 'status': 'increased size to remain larger than neighbor cell n-1 (current-cell-01) and neighbor cell n+1 (current-cell)'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.1, 'status': 'size is optimal to remain smaller than neighbors.'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'decreased size to remain smaller than neighbors'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.78, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.7, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.69, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.3, 'status': 'increased size to ensure being larger than zorg-borg-50 while remaining larger than unga-bunga-54'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.3, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) which has size 6.1'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.3, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) and neighbor cell n+1 (current-cell)'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.1, 'status': 'size is optimal to remain smaller than neighbors.'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'decreased size to remain smaller than neighbors'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.2, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.78, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.7, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.69, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.3, 'status': 'increased size to ensure being larger than zorg-borg-50 while remaining larger than unga-bunga-54'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.3, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) which has size 6.1'}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.3, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) and neighbor cell n+1 (current-cell)'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.09, 'status': 'decreased size further to ensure being smaller than neighbor cell n-1 (current-cell-01) with size 6.3 and neighbor cell n+1 with size 0.1.'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.69, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50 after size adjustment'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.68, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.68, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.5, 'status': 'increased size to ensure being larger than zorg-borg-50 while remaining larger than unga-bunga-54'} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.4, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) which has size 6.3'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.4, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) and neighbor cell n+1 (current-cell) while maintaining the mission goal.'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.09, 'status': 'decreased size further to ensure being smaller than neighbor cell n-1 (current-cell-01) with size 6.3 and neighbor cell n+1 with size 0.1.'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.19, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.69, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50 after size adjustment'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.68, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.68, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, fulfilling mission while maintaining activity'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.5, 'status': 'increased size to ensure being larger than zorg-borg-50 while remaining larger than unga-bunga-54'}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.4, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) which has size 6.3'}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.4, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) and neighbor cell n+1 (current-cell) while maintaining the mission goal.'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.08, 'status': 'decreased size further to ensure being smaller than neighbor cell n-1 (current-cell-01) with size 6.3 and neighbor cell n+1 with size 0.09.'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; size adjusted to remain smaller than neighbor n-1 (size 0.19) and neighbor n+1 (size 2.69)'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.67, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50 after size adjustment'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.67, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, thereby successfully fulfilling the mission while maintaining activity'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.67, 'status': 'size decreased slightly to remain smaller than current-cell-42 and zorg-borg-50 while continuing to fulfill mission'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.5, 'status': "status unchanged; maintaining active size of 6.5 to be larger than zorg-borg-50's size 6.4 and also ensuring it remains larger than unga-bunga-54's size."} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.5, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) with size 6.4'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.5, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) with size 6.4 and neighbor cell n+1 (current-cell) with size 0.09.'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.08, 'status': 'decreased size further to ensure being smaller than neighbor cell n-1 (current-cell-01) with size 6.3 and neighbor cell n+1 with size 0.09.'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 and n+1'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; size adjusted to remain smaller than neighbor n-1 (size 0.19) and neighbor n+1 (size 2.69)'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.67, 'status': 'active; successfully remains smaller than current-cell-42 and zorg-borg-50 after size adjustment'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.67, 'status': 'size adjusted to remain smaller than current-cell-42 and zorg-borg-50, thereby successfully fulfilling the mission while maintaining activity'}, {'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.67, 'status': 'size decreased slightly to remain smaller than current-cell-42 and zorg-borg-50 while continuing to fulfill mission'}, {'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.5, 'status': "status unchanged; maintaining active size of 6.5 to be larger than zorg-borg-50's size 6.4 and also ensuring it remains larger than unga-bunga-54's size."}, {'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.5, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) with size 6.4'}, {'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.5, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) with size 6.4 and neighbor cell n+1 (current-cell) with size 0.09.'}] 
+
+
+New states:
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.08, 'status': 'active; successfully remains smaller than neighbor cell n-1 (current-cell-01) with size 6.3 and neighbor cell n+1 with size 0.18.'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.15, 'status': 'decreased size further to ensure being smaller than neighbor cell n-1 (size 6.3) and neighbor cell n+1 (size 0.18)'} 
+
+{'id': 'current-cell', 'mission': 'remain smaller than your neighbors', 'size': 0.17, 'status': 'active; adjusted size to remain smaller than neighbor n-1 (size 0.19) and neighbor n+1 (size 2.69)'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 0.18, 'status': 'active; successfully remains smaller than neighbor n-1 (size 0.19) and neighbor n+1 (size 2.67)'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.66, 'status': 'active; size adjusted to remain smaller than current-cell-42 (size 2.67) and zorg-borg-50 (size 3.00), successfully fulfilling the mission'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.5, 'status': 'size decreased slightly to further ensure being smaller than current-cell-42 and zorg-borg-50 while successfully fulfilling the mission and maintaining active status'} 
+
+{'id': 'current-cell-01', 'mission': 'remain smaller than your neighbors', 'size': 2.5, 'status': 'size adjusted down to 2.5 to ensure it remains smaller than current-cell-42 (size 6.5) and zorg-borg-50 (size 6.4), thus successfully fulfilling the mission.'} 
+
+{'id': 'current-cell-42', 'mission': 'Ensure to remain larger than the neighbor cell n-1 (zorg-borg-50) while maintaining a size greater than neighbor cell n+1 (unga-bunga-54).', 'size': 6.5, 'status': "status unchanged; maintaining active size of 6.5 to be larger than zorg-borg-50's size 6.4 and also ensuring it remains larger than unga-bunga-54's size."} 
+
+{'id': 'current-cell-01', 'mission': 'remain larger than your neighbors', 'size': 6.6, 'status': 'increased size to ensure being larger than neighbor cell n+1 (current-cell-02) with size 6.5'} 
+
+{'id': 'current-cell-02', 'mission': 'remain larger than your neighbors', 'size': 6.6, 'status': 'increased size to ensure being larger than neighbor cell n-1 (current-cell-01) with size 6.5 and neighbor cell n+1 (current-cell) with size 0.08.'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  

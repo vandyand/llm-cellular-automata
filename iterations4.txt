@@ -1,0 +1,342 @@
+(base)  ✘ kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Initialized new cells array.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'dnvxhsnepp'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'wezvxpwuww'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiwovt'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'owjvarrfie'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'huxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jztxxhcmqp'}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'bhyzddgehn'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'uboukpdhas'}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'eqlshgsain'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'ckhoskeyuo'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string of length 10.', 'state': 'srzxyzmjnd'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'srzxyzmjndwezvxpwuww'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'dnvxhsnepphoakkiwovt'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'owjv'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'deltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jacetixhay'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsaihgssleqyydhzb'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'uekoskghs'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'eqhzxykzau'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string of length 10.', 'state': 'khosxyernu'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'srzxyzmjndwezvxpwuww'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'dnvxhsnepphoakkiwovt'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'owjv'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'deltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jacetixhay'}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsaihgssleqyydhzb'}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'uekoskghs'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'eqhzxykzau'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string of length 10.', 'state': 'khosxyernu'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'khosxyernudnvxhsnepphoakkiwovt'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'srzxyzmjndwezvxpwuwwhoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'ow'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'xdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaecitihay'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'hzyydqlessgihans'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'theta-008-similarity'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'uekoskghau'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzxyxkzatu'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'khosxyernudnvxhsnepphoakkiwovt'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'srzxyzmjndwezvxpwuwwhoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'ow'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'xdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaecitihay'}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'hzyydqlessgihans'}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'theta-008-similarity'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'uekoskghau'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzxyxkzatu'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzxyxkzatu srzxyzmjndwezvxpwuwwhoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'ernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'ow'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy'} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nshgssleqyydhzbjhkprrjghntheta-008-similarity'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzxoxykkau'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'khosxyerak'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzxyxkzatu srzxyzmjndwezvxpwuwwhoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'ernudnvxhsnepphoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'ow'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy'}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nshgssleqyydhzbjhkprrjghntheta-008-similarity'}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzxoxykkau'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'khosxyerak'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'khosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzxyxkzatu srzxyzmjndwezvxpwuwwhoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'o'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'xdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'theta-008-similarity'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyxyrkauj'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'khosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzxyxkzatu srzxyzmjndwezvxpwuwwhoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'o'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'xdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'theta-008-similarity'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyxyrkauj'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyxyrkaujkzxyxkzatu srzxyzmjndwezvxpwuwwhoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'khosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'o'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy', 'newState': 'jaeoitatay', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj'} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyxokssgu'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyxyrkaujkzxyxkzatu srzxyzmjndwezvxpwuwwhoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'khosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'o'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy', 'newState': 'jaeoitatay', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj'}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyxokssgu'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyxyrkaujkzxyxkzatusrzxyzmjndwezvxpwuwwhoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': ''} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'xdxdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy', 'newState': 'jaeioitahy', 'vowelCount': 4, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'mysjnhrgpjjrhybdlqysdqlhxtkittnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'kzyxdqlessgihans-merged'} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyxokssgu'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyxyrkaujkzxyxkzatusrzxyzmjndwezvxpwuwwhoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': ''}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'xdxdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeioitahy', 'newState': 'jaeioitahy', 'vowelCount': 4, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'mysjnhrgpjjrhybdlqysdqlhxtkittnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'kzyxdqlessgihans-merged'}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyxokssgu'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxyrkaujkzxyxkzatusrzxyzmjndwezvxpwuwwhoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': ''} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoita', 'vowelCount': 4, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.'} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'snjhrgpjjrhybdlqysdqlhxtkittnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'hzyydqlessgihans-merged', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyxokssgu'} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxyrkaujkzxyxkzatusrzxyzmjndwezvxpwuwwhoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': ''}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoita', 'vowelCount': 4, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.'}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'snjhrgpjjrhybdlqysdqlhxtkittnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'hzyydqlessgihans-merged', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyxokssgu'}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohhoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'x'} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'dxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix'} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoita', 'vowelCount': 4, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': False} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'nmejrgpjjrhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'kzyoykssgu', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyxokssgu'} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohhoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'x'}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'dxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix'}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoita', 'vowelCount': 4, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': False}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'nmejrgpjjrhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'kzyoykssgu', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyxokssgu'}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxoykssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakohhoakkiiwakohkzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': '', 'newState': '', 'averageNeighborLength': 12, 'currentLength': 0} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'xdxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix', 'adjusted': True} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoitae', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'hgnjrpgrjhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}, 'finalDecision': 'State modified to reverse the combination of neighbor states.', 'adjusted': True} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxoykssgukhosxyerakernudnvxhsnepphoakkiiwakohkzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakohhoakkiiwakohkzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh'}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': '', 'newState': '', 'averageNeighborLength': 12, 'currentLength': 0}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'xdxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix', 'adjusted': True}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoitae', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'hgnjrpgrjhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}, 'finalDecision': 'State modified to reverse the combination of neighbor states.', 'adjusted': True}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'jaeioitahykzyoykssgu', 'newState': 'jaeioitahykzyoykssgu', 'vowelCount': 6, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohhoakkiiwakoh'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh', 'action': 'verified', 'newState': 'hoakkiiwakoh', 'message': "The state 'hoakkiiwakoh' is already a palindrome. No changes made."} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'a', 'newState': 'a', 'averageNeighborLength': 12, 'currentLength': 1} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'xdxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix', 'adjusted': True} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoitae', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'hgnjrpgrjhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}, 'finalDecision': 'State modified to reverse the combination of neighbor states.', 'adjusted': True} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}, 'finalDecision': 'State modified to match the pattern found in neighbor states.', 'adjusted': True} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzoiykshgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  python openai_runner.py
+Loaded cells from cache.
+Initial state: [{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'jaeioitahykzyoykssgu', 'newState': 'jaeioitahykzyoykssgu', 'vowelCount': 6, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'kzyxokssgukhosxyerakernudnvxhsnepphoakkiiwakohhoakkiiwakoh'}, {'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh', 'action': 'verified', 'newState': 'hoakkiiwakoh', 'message': "The state 'hoakkiiwakoh' is already a palindrome. No changes made."}, {'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'a', 'newState': 'a', 'averageNeighborLength': 12, 'currentLength': 1}, {'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'xdxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix', 'adjusted': True}, {'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoitae', 'vowelCount': 5, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True}, {'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False}, {'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'hgnjrpgrjhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}, 'finalDecision': 'State modified to reverse the combination of neighbor states.', 'adjusted': True}, {'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}, 'finalDecision': 'State modified to match the pattern found in neighbor states.', 'adjusted': True}, {'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}, {'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzoiykshgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}}] 
+
+
+New states:
+{'index': 0, 'name': 'Alpha Cell', 'id': 'alpha-001', 'mission': 'Concatenation Mission: Concatenate the states of the neighboring cells.', 'state': 'jaeioitahykzyoykssgu', 'newState': 'jaeioitahykzyoykssgu', 'vowelCount': 6, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+{'index': 1, 'name': 'Beta Blob', 'id': 'beta-002', 'mission': 'Substring Mission: Extract a substring from the concatenated states of neighbors.', 'state': 'jaeioitahykzyoyksskzyoykssguhoakkiiwakoh', 'newState': 'jaeioitahykzyoyksskzyoykssguhoakkiiwakoh', 'substring': 'kzyoykssgukhosxyerakernudnvxhsnepphoakkiiwakoh', 'message': 'Substring extracted successfully from the concatenated states of neighbors.'} 
+
+{'index': 2, 'name': 'Gamma Goo', 'id': 'gamma-003', 'mission': 'Palindrome Mission: Ensure the state is a palindrome.', 'state': 'hoakkiiwakoh', 'action': 'verified', 'newState': 'hoakkiiwakoh', 'message': "The state 'hoakkiiwakoh' is already a palindrome. No changes made."} 
+
+{'index': 3, 'name': 'Delta Droid', 'id': 'delta-004', 'mission': 'Length Comparison Mission: Adjust state to be shorter than the average length of neighbors.', 'state': 'a', 'newState': 'a', 'averageNeighborLength': 12, 'currentLength': 1, 'message': "The state 'a' is already shorter than the average length of neighbors. No changes made."} 
+
+{'index': 4, 'name': 'Epsilon Entity', 'id': 'epsilon-005', 'mission': 'Prefix Mission: Add a common prefix based on neighbors.', 'state': 'dxdxdeltahuxgnvwzix', 'newState': 'xdxdxdeltahuxgnvwzix', 'commonPrefix': 'xd', 'finalState': 'xdxdxdeltahuxgnvwzix', 'adjusted': True} 
+
+{'index': 5, 'name': 'Zeta Zapper', 'id': 'zeta-006', 'mission': 'Vowel Count Mission: Adjust state to have the same number of vowels as the average of neighbors.', 'state': 'jaeitoita', 'newState': 'jaeitoitae', 'vowelCount': 6, 'neighborVowelCounts': {'n-1': 4, 'n+1': 3}, 'averageVowelCount': 3.5, 'adjusted': True} 
+
+{'index': 6, 'name': 'Eta Echo', 'id': 'eta-007', 'mission': 'Alphabetical Order Mission: Modify state to be alphabetically between neighbors.', 'state': 'jhkprrjghn', 'newState': 'jhkprrjghn', 'vowelCount': 2, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'gnhrjprrkjhbhdyqlesdyqhsdjn-thgitnnsym'}, 'finalDecision': 'Final state remains unchanged as it is already correctly positioned alphabetically between neighbors.', 'adjusted': False} 
+
+{'index': 7, 'name': 'Theta Thunder', 'id': 'theta-008', 'mission': 'Reverse Mission: Reverse state of the combined states of neighbors.', 'state': 'nsmynittghktxqhsdqyldsyqldbhyjrrpgrjhnj', 'newState': 'hgnjrpgrjhybdlqysdqlhxktitnym', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'hzyydqlessgihans-merged'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'hzyydqlessgihans-merged'}, 'finalDecision': 'State modified to reverse the combination of neighbor states.', 'adjusted': True} 
+
+{'index': 8, 'name': 'Iota Ion', 'id': 'iota-009', 'mission': 'Pattern Matching Mission: Change state to match a pattern found in neighbors.', 'state': 'hzyydqlessgihans-merged', 'newState': 'jaeioitahy', 'vowelCount': 5, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}, 'finalDecision': 'State modified to match the pattern found in neighbor states.', 'adjusted': True} 
+
+{'index': 9, 'name': 'Kappa Knight', 'id': 'kappa-010', 'mission': 'Character Frequency Mission: Adjust state to have a similar character frequency distribution as neighbors.', 'state': 'kzyoykssgu', 'newState': 'kzyoykssgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}, 'finalDecision': 'State remains unchanged as it already matches the character frequency distribution of neighbors.', 'adjusted': False} 
+
+{'index': 10, 'name': 'Lambda Lion', 'id': 'lambda-011', 'mission': 'Random String Mission: Generate a new random string with a character distribution similar to neighbors.', 'state': 'kzyoykssgu', 'newState': 'jzoeyksjgu', 'vowelCount': 4, 'neighborStates': {'n-1': 'jaeioitahy', 'n+1': 'kzyoykssgu'}, 'alphabeticalRange': {'lower': 'jaeioitahy', 'upper': 'kzyoykssgu'}} 
+
+
+
+
+(base)  kingjames@Kings-MBP  ~/dspy/experimental   main  
